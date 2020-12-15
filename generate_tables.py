@@ -7,31 +7,7 @@
 @software: PyCharm
 """
 from flask_sqlalchemy import SQLAlchemy
-
 from config.base_config import SQLALCHEMY_DATABASE_URI, ADMIN, ADMIN_PASSWORD
-"""
-            　┏┓　　　┏┓+ +
-  　　　　　　　┏┛┻━━━┛┻┓ + +
-  　　　　　　　┃　　　　　　　┃ 　
-  　　　　　　　┃　　　━　　　┃ ++ + + +
-  　　　　　　 ████━████ ┃+
-  　　　　　　　┃　　　　　　　┃ +
-  　　　　　　　┃　　　┻　　　┃
-  　　　　　　　┃　　　　　　　┃ + +
-  　　　　　　　┗━┓　　　┏━┛
-  　　　　　　　　　┃　　　┃　　　　　　　　　　　
-  　　　　　　　　　┃　　　┃ + + + +
-  　　　　　　　　　┃　　　┃　　　　Code is far away from bug with the animal protecting　　　　　　　
-  　　　　　　　　　┃　　　┃ + 　　　　神兽保佑,代码无bug　　
-  　　　　　　　　　┃　　　┃
-  　　　　　　　　　┃　　　┃　　+　　　　　　　　　
-  　　　　　　　　　┃　 　　┗━━━┓ + +
-  　　　　　　　　　┃ 　　　　　　　┣┓
-  　　　　　　　　　┃ 　　　　　　　┏┛
-  　　　　　　　　　┗┓┓┏━┳┓┏┛ + + + +
-  　　　　　　　　　　┃┫┫　┃┫┫
-  　　　　　　　　　　┗┻┛　┗┻┛+ + + +
-"""
 from datetime import datetime
 from flask import Flask
 
